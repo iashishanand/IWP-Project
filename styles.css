@@ -1,0 +1,117 @@
+p {
+    color: white;
+}
+
+.ll {
+    float: left;
+    width: 40%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px 0 30px;
+    border-radius: 50px;
+}
+
+.rl {
+    float: right;
+    width: 40%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px 0 30px;
+    border-radius: 50px;
+}
+
+.tot {
+    display: flex;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.nopad {
+    margin: 0;
+    font-family: 'Audiowide', serif;
+}
+
+.team2 {
+    font-family: 'Audiowide', serif;
+    font-size: 30px;
+    font-weight: 5000;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 2px solid yellow;
+}
+
+.team1 {
+    border-radius: 50px;
+    border-bottom: 3px solid yellow;
+    font-family: 'Audiowide', serif;
+    font-size: 60px;
+    font-weight: 5000;
+    margin: 0;
+    padding: 10px 10px 10px 50px;
+}
+
+.teame {
+    border-radius: 50px;
+    border-bottom: 3px solid yellow;
+    text-align: right;
+    margin: 0;
+    padding: 10px 30px 10px 10px;
+    padding-bottom: 30px;
+}
+
+.team {
+    border-radius: 50px;
+    border-top: 7px solid yellow;
+    text-align: right;
+    font-family: 'Audiowide', serif;
+    font-size: 60px;
+    font-weight: 5000;
+    margin: 0;
+    padding: 10px 30px 10px 10px;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid yellow;
+    padding-top: 30px;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 50px;
+}
+
+.flex-container > div {
+    background-image: url('demo1.png');
+    background-size: 100% 100%;
+    border-radius: 50px;
+    width: 40%;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    padding: 30px;
+    color: #f7f302;
+}
+
+.card:hover {
+    transform: translate(-7px, -15px);
+    box-shadow: 5px 5px 20px 2px yellow;
+}
+
+footer {
+    text-align: right;
+    color: blue;
+    size: 10px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 99.99%);
+    color: yellow;
+}
+
